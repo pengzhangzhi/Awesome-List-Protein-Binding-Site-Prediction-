@@ -30,7 +30,7 @@ the data used in this study includes experimental data on variant effects, speci
 
 ## Protein catalytic site prediction
 
-
+#### Das S, Scholes HM, Sen N, Orengo C. CATH functional families predict functional sites in proteins. Bioinformatics. 2021 May 23;37(8):1099-1106. doi: 10.1093/bioinformatics/btaa937. PMID: 33135053; PMCID: PMC8150129.
 
 #### Lu CH, Yu CS, Chien YT, Huang SW. EXIA2: web server of accurate and rapid protein catalytic residue prediction. Biomed Res Int. 2014;2014:807839. doi: 10.1155/2014/807839. Epub 2014 Sep 11. PMID: 25295274; PMCID: PMC4177735.
 The paper describes the EXIA2 Web Server, a method for predicting catalytic residues in proteins based on their special side chain orientation. The paper uses six benchmark datasets to evaluate the performance of the EXIA2 Web Server for predicting catalytic residues in proteins. The datasets include PW79, POOL160, EF fold, EF superfamily, EF family, and P100, which include over 1,200 proteins and 861,404 residues (3,664 catalytic residues and 857,740 noncatalytic residues). The definition of catalytic residues is based on Catalytic Site Atlas version 2.2.12. The paper compares the prediction performance of EXIA2 with that of three state-of-the-art prediction methods, including CRpred, POOL, ConSurf, and ResBoost, on the PW79 and POOL160 datasets. The performance is evaluated using recall (R), precision (P), and area under ROC curve (AUCROC). 
