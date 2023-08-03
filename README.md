@@ -42,6 +42,8 @@ The methods described in the paper Protein structure based prediction of catalyt
 ## DNA binding site prediction
 
 #### Qianmu Yuan and others, AlphaFold2-aware protein–DNA binding site prediction using graph transformer, Briefings in Bioinformatics, Volume 23, Issue 2, March 2022, bbab564, https://doi.org/10.1093/bib/bbab564
+This paper proposes a novel method, GraphSite, that utilizes the AlphaFold2 protein structure prediction and a graph transformer model to accurately predict protein-DNA binding sites. The method outperforms existing sequence-based and structure-based methods, demonstrating significant improvements in performance.
+
 
 #### Yan J, Friedrich S, Kurgan L. A comprehensive comparative review of sequence-based predictors of DNA- and RNA-binding residues. Brief Bioinform. 2016 Jan;17(1):88-105. doi: 10.1093/bib/bbv023. Epub 2015 May 1. PMID: 25935161.
 
