@@ -32,7 +32,43 @@ The methods described in the paper Protein structure based prediction of catalyt
 
 
 
-## Protein binding site prediction
-Protein–protein interaction sites prediction by ensemble random forests with synthetic minority oversampling technique 
+## DNA binding site prediction
 
+#### Qianmu Yuan and others, AlphaFold2-aware protein–DNA binding site prediction using graph transformer, Briefings in Bioinformatics, Volume 23, Issue 2, March 2022, bbab564, https://doi.org/10.1093/bib/bbab564
+
+#### Yan J, Friedrich S, Kurgan L. A comprehensive comparative review of sequence-based predictors of DNA- and RNA-binding residues. Brief Bioinform. 2016 Jan;17(1):88-105. doi: 10.1093/bib/bbv023. Epub 2015 May 1. PMID: 25935161.
+
+## RNA binding site prediction
+
+#### Song, Y., Yuan, Q., Zhao, H., & Yang, Y. (2023). Accurately identifying nucleic-acid-binding sites through geometric graph learning on language model predicted structures. bioRxiv, 2023-07.
+
+## Protein binding site prediction
+
+#### Tubiana, J., & Wolfson, H. J. (2022). ScanNet: An interpretable geometric deep learning model for structure-based protein binding site prediction. Nature Methods, 19(6), 730-739. https://doi.org/10.1038/s41592-022-01490-7
+
+#### Khan, S. H., Tayara, H., & Chong, K. T. (2022). ProB-Site: Protein Binding Site Prediction Using Local Features. Cells, 11(13). https://doi.org/10.3390/cells11132117
+
+#### Zhang, J., & Kurgan, L. (2018). Review and comparative assessment of sequence-based predictors of protein-binding residues. Briefings in Bioinformatics, 19(5), 821-837. https://doi.org/10.1093/bib/bbx022
+
+
+#### Sorzano, C. O., Carazo, J. M., & Segura, J. (2019). BIPSPI: A method for the prediction of partner-specific protein–protein interfaces. Bioinformatics, 35(3), 470-477. https://doi.org/10.1093/bioinformatics/bty647
+
+#### Chen, R., Li, X., Yang, Y., Song, X., Wang, C., & Qiao, D. (2022). Prediction of protein-protein interaction sites in intrinsically disordered proteins. Frontiers in Molecular Biosciences, 9, 985022. https://doi.org/10.3389/fmolb.2022.985022
+
+#### Khan, S. H., Tayara, H., & Chong, K. T. (2022). ProB-Site: Protein Binding Site Prediction Using Local Features. Cells, 11(13), 2117. https://doi.org/10.3390/cells11132117
+
+#### Sunny, S., Prakash, P.B., Gopakumar, G. et al. DeepBindPPI: Protein–Protein Binding Site Prediction Using Attention Based Graph Convolutional Network. Protein J 42, 276–287 (2023). https://doi.org/10.1007/s10930-023-10121-9
+
+
+## Ligand (e.g., compound/zinc) binding site prediction
+
+#### Jake E McGreig and others, 3DLigandSite: structure-based prediction of protein–ligand binding sites, Nucleic Acids Research, Volume 50, Issue W1, 5 July 2022, Pages W13–W20, https://doi.org/10.1093/nar/gkac250
+
+#### Zhao J, Cao Y, Zhang L. Exploring the computational methods for protein-ligand binding site prediction. Comput Struct Biotechnol J. 2020 Feb 17;18:417-426. doi: 10.1016/j.csbj.2020.02.008. PMID: 32140203; PMCID: PMC7049599.
+
+#### Roche, D.B.; Brackenridge, D.A.; McGuffin, L.J. Proteins and Their Interacting Partners: An Introduction to Protein–Ligand Binding Site Prediction Methods. Int. J. Mol. Sci. 2015, 16, 29829-29842. https://doi.org/10.3390/ijms161226202
+
+#### Ashwin Dhakal and others, Artificial intelligence in the prediction of protein–ligand interactions: recent advances and future directions, Briefings in Bioinformatics, Volume 23, Issue 1, January 2022, bbab476, https://doi.org/10.1093/bib/bbab476
+
+#### Santana, C. A., Izidoro, S. C., C, R., Tyzack, J. D., Ribeiro, A. J., Pires, D. E., & Thornton, J. M. (2022). GRaSP-web: A machine learning strategy to predict binding sites based on residue neighborhood graphs. Nucleic Acids Research, 50(W1), W392-W397. https://doi.org/10.1093/nar/gkac323
 
