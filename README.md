@@ -5,15 +5,27 @@ List of papers on protein binding site prediction
 ### Database
 
 #### Mechanism and Catalytic Site Atlas
-M-CSA is a database of enzyme reaction mechanisms. It provides annotation on the protein, catalytic residues, cofactors, and the reaction mechanisms of hundreds of enzymes.
+
+<details>
+<summary>summary</summary>
+M-CSA is a database of enzyme reaction mechanisms. It annotates the protein, catalytic residues, cofactors, and the reaction mechanisms of hundreds of enzymes.
 M-CSA contains 1003 hand-curated entries.
+</details>
+
 
 #### PDBbind database
+<details>
+<summary>summary</summary>
+
 Contains ~13000 complex strcuctures formed between protein-small molecule ligand, protein-protein, protein-nucleic acid and nucleic acid-small molecule ligand. 
 Binding affinity data and structural information for a total of 12,995 biomolecular complexes, including protein-ligand (10656), nucleic acid-ligand (87), protein-nucleic acid (660), and protein-protein complexes (1592), which is the largest collection of this kind so far.
+</details>
 
 #### BioLiP database
+<details>
+<summary>summary</summary>
 BioLiP is a semi-manually curated database for high-quality, biologically relevant ligand-protein binding interactions. The structure data are collected primarily from the Protein Data Bank (PDB), with biological insights mined from literature and other specific databases. BioLiP aims to construct the most comprehensive and accurate database for serving the needs of ligand-protein docking, virtual ligand screening and protein function annotation. Questions about the BioLiP Database can be posted at the Service System Discussion Board. Since ligand molecules (e.g., Glycerol, Ethylene glycol) are often used as additives (i.e., false positives) for solving the protein structures, not all ligands present in the PDB database are biologically relevant. BioLiP uses a composite automated and manual procedure for examining the biological relevance of ligands in the PDB database. Each entry in BioLiP contains a comprehensive list of annotations on: ligand-binding residues; ligand binding affinity (from the original literature, plus Binding MOAD, PDBbind-CN, BindingDB); catalytic site residues (mapped from Mechanism and Catalytic Site Atlas); Enzyme Commission (EC) numbers and Gene Ontology (GO) terms mapped by the SIFTS database; crosslinks to external databases, including RCSB PDB, PDBe, PDBj, PDBsum, Binding MOAD, PDBbind-CN, Mechanism and Catalytic Site Atlas, QuickGO, ExPASy ENZYME, ChEMBL, DrugBank, ZINC, UniProt, PubMed.
+</details>
 
 ## GO and EC prediction
 
@@ -57,6 +69,30 @@ This paper proposes a novel method, GraphSite, that utilizes the AlphaFold2 prot
 
 #### Song, Y., Yuan, Q., Zhao, H., & Yang, Y. (2023). Accurately identifying nucleic-acid-binding sites through geometric graph learning on language model predicted structures. bioRxiv, 2023-07.
 #### Xia, Y., Xia, C., Pan, X., & Shen, H. (2021). GraphBind: Protein structural context embedded rules learned by hierarchical graph neural networks for recognizing nucleic-acid-binding residues. Nucleic Acids Research, 49(9), e51. https://doi.org/10.1093/nar/gkab044
+<details>
+<summary>Summary</summary>
+
+The paper presents GraphBind, a novel method for nucleic-acid-binding residue prediction based on an end-to-end graph neural network. The main contributions of the paper are:
+It proposes a structural-context-based graph representation to capture protein residues' local geometric and bio-physicochemical characteristics and their interactions with nucleic acids.
+It designs a hierarchical graph neural network for embedding the graph into a fixed-size latent representation for downstream prediction.
+It demonstrates the superior performance of GraphBind over eight state-of-the-art methods on two benchmark datasets for DNA- and RNA-binding residue prediction.
+The benchmark datasets are constructed from the BioLiP database, which is a collection of biologically relevant ligand-protein interactions. The datasets are divided into training and test sets according to the release date. The datasets are also augmented by transferring binding annotations from similar protein chains to increase the number of binding residues in the training sets. The details of the datasets are summarized in Table 11.
+
+The evaluation metrics are recall, precision, F1-score, Matthews correlation coefficient (MCC), and area under the receiver operator characteristic (ROC) curve (AUC). These metrics are used to assess the performance of GraphBind and other methods on binary classification of binding and non-binding residues.
+
+The baselines are eight state-of-the-art methods for nucleic-acid-binding residue prediction, including deep-learning-based methods, shallow-machine-learning-based methods, template-based methods, and consensus methods. 
+These methods are:
+- TargetDNA: a sequence-based method that uses evolutionary information and predicted secondary structure profiles as input and employs multiple SVMs with boosting as the classifier.
+- TargetS: a sequence-based method that uses evolutionary information, predicted secondary structure profiles and ligand-specific propensity as input and applies the AdaBoost algorithm as the classifier .
+- NucBind: a consensus method that fuses a sequence-based SVM classifier and a template-based method 1.
+- DNAPred: a sequence-based method that proposes a two-stage imbalanced learning algorithm with an ensemble technique 2.
+- RNABindRPlus: a consensus method that combines outputs from a sequence homology-based method and a SVM classifier 3.
+- NucleicNet: a structure-based deep learning method that analyzes physicochemical properties of grid points on protein surface and takes a deep residual network as the classifier 45.
+- aaRNA: a sequence- and structure-based artificial neural network classifier that uses a structural descriptor Laplacian norm to measure surface convexity/concavity 6.
+- DNABind: a consensus method that integrates a sequence-based SVM classifier, a structure-based SVM classifier and a template-based method 1.
+
+
+</details>
 
 ## Protein binding site prediction
 
