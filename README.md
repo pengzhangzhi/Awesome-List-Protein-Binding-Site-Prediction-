@@ -235,7 +235,7 @@ The baseline methods used for comparison in the paper are based on handcrafted f
 
 </details>
 
-## Ligand (e.g., compound/zinc) binding site prediction
+## Ligand binding site prediction
 
 #### Jake E McGreig and others, 3DLigandSite: structure-based prediction of protein–ligand binding sites, Nucleic Acids Research, Volume 50, Issue W1, 5 July 2022, Pages W13–W20, https://doi.org/10.1093/nar/gkac250
 <details>
@@ -280,6 +280,7 @@ The baseline methods used for comparison in the paper are based on handcrafted f
 
 
 </details>
+
 ## Metal-binding site prediction
 
 #### Cheng, Y., Wang, H., Xu, H., Liu, Y., Ma, B., Chen, X., Zeng, X., Wang, X., Wang, B., Shiau, C., Ovchinnikov, S., Su, X., & Wang, C. (2023). Co-evolution-based prediction of metal-binding sites in proteomes by machine learning. Nature Chemical Biology, 19(5), 548-555. https://doi.org/10.1038/s41589-022-01223-z
