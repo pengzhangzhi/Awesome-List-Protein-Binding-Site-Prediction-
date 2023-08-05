@@ -123,6 +123,7 @@ The paper describes the EXIA2 Web Server, a method for predicting catalytic resi
 
 
 #### Fajardo, J.E., Fiser, A. Protein structure based prediction of catalytic residues. BMC Bioinformatics 14, 63 (2013). https://doi.org/10.1186/1471-2105-14-63
+
 <details>
 <summary>summary</summary>
 The methods described in the paper Protein structure based prediction of catalytic residues aim to predict functional residues in protein structures using a neural network approach. The authors explore a range of features based on protein structure, including distance to the centroid and amino acid type, combined with sequence conservation. The neural network is trained using a supervised, feed-forward approach with one hidden layer of ten units. The performance of the method is evaluated using various performance measures, including sensitivity, precision, and the F1-measure. The results show that the proposed method achieves comparable performance to other state-of-the-art methods. The benchmarks and baselines used in the paper are not explicitly mentioned in the provided information. However, the authors mention comparing their method to other existing methods, such as CRpred and the method of Youn et al., which rely on sequence conservation and structural information. The performance of the proposed method is evaluated using different datasets, including a training set and an independent test set.
@@ -152,6 +153,8 @@ Train and test sets: Train_573 and Test_129, Test_196, which are named by the nu
 ## RNA binding site prediction
 
 #### Song, Y., Yuan, Q., Zhao, H., & Yang, Y. (2023). Accurately identifying nucleic-acid-binding sites through geometric graph learning on language model predicted structures. bioRxiv, 2023-07.
+
+
 #### Xia, Y., Xia, C., Pan, X., & Shen, H. (2021). GraphBind: Protein structural context embedded rules learned by hierarchical graph neural networks for recognizing nucleic-acid-binding residues. Nucleic Acids Research, 49(9), e51. https://doi.org/10.1093/nar/gkab044
 <details>
 <summary>Summary</summary>
@@ -198,11 +201,13 @@ The baseline methods used for comparison in the paper are based on handcrafted f
 
 
 #### Khan, S. H., Tayara, H., & Chong, K. T. (2022). ProB-Site: Protein Binding Site Prediction Using Local Features. Cells, 11(13). https://doi.org/10.3390/cells11132117
+
 <details>
 <summary>Summary</summary>
 
 
 </details>
+
 #### Zhang, J., & Kurgan, L. (2018). Review and comparative assessment of sequence-based predictors of protein-binding residues. Briefings in Bioinformatics, 19(5), 821-837. https://doi.org/10.1093/bib/bbx022
 <details>
 <summary>Summary</summary>
@@ -210,24 +215,29 @@ The baseline methods used for comparison in the paper are based on handcrafted f
 
 </details>
 
-#### Sorzano, C. O., Carazo, J. M., & Segura, J. (2019). BIPSPI: A method for the prediction of partner-specific protein–protein interfaces. Bioinformatics, 35(3), 470-477. https://doi.org/10.1093/bioinformatics/bty647
+#### Sorzano, C. O., Carazo, J. M., & Segura, J. (2019). BIPSPI: A method for the prediction of partner-specific protein–protein interfaces. Bioinformatics, 35(3), 470-
+
+477. https://doi.org/10.1093/bioinformatics/bty647
 <details>
 <summary>Summary</summary>
 
 
 </details>
+
 #### Chen, R., Li, X., Yang, Y., Song, X., Wang, C., & Qiao, D. (2022). Prediction of protein-protein interaction sites in intrinsically disordered proteins. Frontiers in Molecular Biosciences, 9, 985022. https://doi.org/10.3389/fmolb.2022.985022
 <details>
 <summary>Summary</summary>
 
 
 </details>
+
 #### Khan, S. H., Tayara, H., & Chong, K. T. (2022). ProB-Site: Protein Binding Site Prediction Using Local Features. Cells, 11(13), 2117. https://doi.org/10.3390/cells11132117
 <details>
 <summary>Summary</summary>
 
 
 </details>
+
 #### Sunny, S., Prakash, P.B., Gopakumar, G. et al. DeepBindPPI: Protein–Protein Binding Site Prediction Using Attention Based Graph Convolutional Network. Protein J 42, 276–287 (2023). https://doi.org/10.1007/s10930-023-10121-9
 <details>
 <summary>Summary</summary>
@@ -243,24 +253,28 @@ The baseline methods used for comparison in the paper are based on handcrafted f
 
 
 </details>
+
 #### Zhao J, Cao Y, Zhang L. Exploring the computational methods for protein-ligand binding site prediction. Comput Struct Biotechnol J. 2020 Feb 17;18:417-426. doi: 10.1016/j.csbj.2020.02.008. PMID: 32140203; PMCID: PMC7049599.
 <details>
 <summary>Summary</summary>
 
 
 </details>
+
 #### Roche, D.B.; Brackenridge, D.A.; McGuffin, L.J. Proteins and Their Interacting Partners: An Introduction to Protein–Ligand Binding Site Prediction Methods. Int. J. Mol. Sci. 2015, 16, 29829-29842. https://doi.org/10.3390/ijms161226202
 <details>
 <summary>Summary</summary>
 
 
 </details>
+
 #### Ashwin Dhakal and others, Artificial intelligence in the prediction of protein–ligand interactions: recent advances and future directions, Briefings in Bioinformatics, Volume 23, Issue 1, January 2022, bbab476, https://doi.org/10.1093/bib/bbab476
 <details>
 <summary>Summary</summary>
 
 
 </details>
+
 #### Santana, C. A., Izidoro, S. C., C, R., Tyzack, J. D., Ribeiro, A. J., Pires, D. E., & Thornton, J. M. (2022). GRaSP-web: A machine learning strategy to predict binding sites based on residue neighborhood graphs. Nucleic Acids Research, 50(W1), W392-W397. https://doi.org/10.1093/nar/gkac323
 <details>
 <summary>Summary</summary>
@@ -274,6 +288,7 @@ The baseline methods used for comparison in the paper are based on handcrafted f
 
 
 </details>
+
 #### Yi-Heng Zhu, Dong-Jun Yu, ULDNA: Integrating Unsupervised Multi-Source Language Models with LSTM-Attention Network for Protein-DNA Binding Site Prediction, bioRxiv 2023.05.30.542787; doi: https://doi.org/10.1101/2023.05.30.542787
 <details>
 <summary>Summary</summary>
