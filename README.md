@@ -198,36 +198,103 @@ The baseline methods used for comparison in the paper are based on handcrafted f
 
 
 #### Khan, S. H., Tayara, H., & Chong, K. T. (2022). ProB-Site: Protein Binding Site Prediction Using Local Features. Cells, 11(13). https://doi.org/10.3390/cells11132117
+<details>
+<summary>Summary</summary>
 
+
+</details>
 #### Zhang, J., & Kurgan, L. (2018). Review and comparative assessment of sequence-based predictors of protein-binding residues. Briefings in Bioinformatics, 19(5), 821-837. https://doi.org/10.1093/bib/bbx022
+<details>
+<summary>Summary</summary>
 
+
+</details>
 
 #### Sorzano, C. O., Carazo, J. M., & Segura, J. (2019). BIPSPI: A method for the prediction of partner-specific protein–protein interfaces. Bioinformatics, 35(3), 470-477. https://doi.org/10.1093/bioinformatics/bty647
+<details>
+<summary>Summary</summary>
 
+
+</details>
 #### Chen, R., Li, X., Yang, Y., Song, X., Wang, C., & Qiao, D. (2022). Prediction of protein-protein interaction sites in intrinsically disordered proteins. Frontiers in Molecular Biosciences, 9, 985022. https://doi.org/10.3389/fmolb.2022.985022
+<details>
+<summary>Summary</summary>
 
+
+</details>
 #### Khan, S. H., Tayara, H., & Chong, K. T. (2022). ProB-Site: Protein Binding Site Prediction Using Local Features. Cells, 11(13), 2117. https://doi.org/10.3390/cells11132117
+<details>
+<summary>Summary</summary>
 
+
+</details>
 #### Sunny, S., Prakash, P.B., Gopakumar, G. et al. DeepBindPPI: Protein–Protein Binding Site Prediction Using Attention Based Graph Convolutional Network. Protein J 42, 276–287 (2023). https://doi.org/10.1007/s10930-023-10121-9
+<details>
+<summary>Summary</summary>
 
+
+</details>
 
 ## Ligand (e.g., compound/zinc) binding site prediction
 
 #### Jake E McGreig and others, 3DLigandSite: structure-based prediction of protein–ligand binding sites, Nucleic Acids Research, Volume 50, Issue W1, 5 July 2022, Pages W13–W20, https://doi.org/10.1093/nar/gkac250
+<details>
+<summary>Summary</summary>
 
+
+</details>
 #### Zhao J, Cao Y, Zhang L. Exploring the computational methods for protein-ligand binding site prediction. Comput Struct Biotechnol J. 2020 Feb 17;18:417-426. doi: 10.1016/j.csbj.2020.02.008. PMID: 32140203; PMCID: PMC7049599.
+<details>
+<summary>Summary</summary>
 
+
+</details>
 #### Roche, D.B.; Brackenridge, D.A.; McGuffin, L.J. Proteins and Their Interacting Partners: An Introduction to Protein–Ligand Binding Site Prediction Methods. Int. J. Mol. Sci. 2015, 16, 29829-29842. https://doi.org/10.3390/ijms161226202
+<details>
+<summary>Summary</summary>
 
+
+</details>
 #### Ashwin Dhakal and others, Artificial intelligence in the prediction of protein–ligand interactions: recent advances and future directions, Briefings in Bioinformatics, Volume 23, Issue 1, January 2022, bbab476, https://doi.org/10.1093/bib/bbab476
+<details>
+<summary>Summary</summary>
 
+
+</details>
 #### Santana, C. A., Izidoro, S. C., C, R., Tyzack, J. D., Ribeiro, A. J., Pires, D. E., & Thornton, J. M. (2022). GRaSP-web: A machine learning strategy to predict binding sites based on residue neighborhood graphs. Nucleic Acids Research, 50(W1), W392-W397. https://doi.org/10.1093/nar/gkac323
+<details>
+<summary>Summary</summary>
 
+
+</details>
 
 #### Aditi Shenoy et al., M-Ionic: Prediction of metal ion binding sites from sequence using residue embeddings, bioRxiv 2023.04.06.535847; doi: https://doi.org/10.1101/2023.04.06.535847
+<details>
+<summary>Summary</summary>
 
+
+</details>
 #### Yi-Heng Zhu, Dong-Jun Yu, ULDNA: Integrating Unsupervised Multi-Source Language Models with LSTM-Attention Network for Protein-DNA Binding Site Prediction, bioRxiv 2023.05.30.542787; doi: https://doi.org/10.1101/2023.05.30.542787
+<details>
+<summary>Summary</summary>
 
+
+</details>
+## Metal-binding site prediction
+
+#### Cheng, Y., Wang, H., Xu, H., Liu, Y., Ma, B., Chen, X., Zeng, X., Wang, X., Wang, B., Shiau, C., Ovchinnikov, S., Su, X., & Wang, C. (2023). Co-evolution-based prediction of metal-binding sites in proteomes by machine learning. Nature Chemical Biology, 19(5), 548-555. https://doi.org/10.1038/s41589-022-01223-z
+<details>
+<summary>Summary</summary>
+
+
+</details>
+
+#### Dürr, S. L., Levy, A., & Rothlisberger, U. (2023). Metal3D: A general deep learning framework for accurate metal ion location prediction in proteins. Nature Communications, 14(1), 1-14. https://doi.org/10.1038/s41467-023-37870-6
+<details>
+<summary>Summary</summary>
+
+
+</details>
 
 ### Review
 
