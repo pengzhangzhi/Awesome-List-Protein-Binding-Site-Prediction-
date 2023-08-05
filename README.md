@@ -27,6 +27,18 @@ Binding affinity data and structural information for a total of 12,995 biomolecu
 BioLiP is a semi-manually curated database for high-quality, biologically relevant ligand-protein binding interactions. The structure data are collected primarily from the Protein Data Bank (PDB), with biological insights mined from literature and other specific databases. BioLiP aims to construct the most comprehensive and accurate database for serving the needs of ligand-protein docking, virtual ligand screening and protein function annotation. Questions about the BioLiP Database can be posted at the Service System Discussion Board. Since ligand molecules (e.g., Glycerol, Ethylene glycol) are often used as additives (i.e., false positives) for solving the protein structures, not all ligands present in the PDB database are biologically relevant. BioLiP uses a composite automated and manual procedure for examining the biological relevance of ligands in the PDB database. Each entry in BioLiP contains a comprehensive list of annotations on: ligand-binding residues; ligand binding affinity (from the original literature, plus Binding MOAD, PDBbind-CN, BindingDB); catalytic site residues (mapped from Mechanism and Catalytic Site Atlas); Enzyme Commission (EC) numbers and Gene Ontology (GO) terms mapped by the SIFTS database; crosslinks to external databases, including RCSB PDB, PDBe, PDBj, PDBsum, Binding MOAD, PDBbind-CN, Mechanism and Catalytic Site Atlas, QuickGO, ExPASy ENZYME, ChEMBL, DrugBank, ZINC, UniProt, PubMed.
 </details>
 
+
+## General binding site prediction
+#### Krapp, L.F., Abriata, L.A., Cortés Rodriguez, F. et al. PeSTo: parameter-free geometric deep learning for accurate prediction of protein binding interfaces. Nat Commun 14, 2175 (2023). https://doi.org/10.1038/s41467-023-37701-8
+<details>
+<summary>summary</summary>
+Given the protein structure, the model predicts the binding site of nucleic acids, lipids, ions, and small molecules.
+The dataset is composed of all the biological assemblies from the Protein Data Bank.
+The method was compared with ScanNet, MaSIF-site, SPPIDER35 and PSIVER on protein-binding site prediction. 
+The testing set is composed of the clusters containing any of the 53 subunits from the MaSIF-site benchmark dataset or 230 structures from the Protein-Protein Docking Benchmark 5.038 (PPDB5) dataset. Additionally, we extracted a subset 417 structures common in the benchmark dataset of ScanNet15 and the testing dataset of PeSTo. 
+</details>
+
+
 ## GO and EC prediction
 
 #### Gligorijević, V., Renfrew, P. D., Kosciolek, T., Leman, J. K., Berenberg, D., Vatanen, T., Chandler, C., Taylor, B. C., Fisk, I. M., Vlamakis, H., Xavier, R. J., Knight, R., Cho, K., & Bonneau, R. (2021). Structure-based protein function prediction using graph convolutional networks. Nature Communications, 12(1), 1-14. https://doi.org/10.1038/s41467-021-23303-9
