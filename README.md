@@ -150,6 +150,13 @@ Train and test sets: Train_573 and Test_129, Test_196, which are named by the nu
 </details>
 
 
+#### Yi-Heng Zhu, Dong-Jun Yu, ULDNA: Integrating Unsupervised Multi-Source Language Models with LSTM-Attention Network for Protein-DNA Binding Site Prediction, bioRxiv 2023.05.30.542787; doi: https://doi.org/10.1101/2023.05.30.542787
+<details>
+<summary>Summary</summary>
+
+
+</details>
+
 ## RNA binding site prediction
 
 #### Song, Y., Yuan, Q., Zhao, H., & Yang, Y. (2023). Accurately identifying nucleic-acid-binding sites through geometric graph learning on language model predicted structures. bioRxiv, 2023-07.
@@ -268,12 +275,6 @@ The baseline methods used for comparison in the paper are based on handcrafted f
 
 </details>
 
-#### Ashwin Dhakal and others, Artificial intelligence in the prediction of protein–ligand interactions: recent advances and future directions, Briefings in Bioinformatics, Volume 23, Issue 1, January 2022, bbab476, https://doi.org/10.1093/bib/bbab476
-<details>
-<summary>Summary</summary>
-
-
-</details>
 
 #### Santana, C. A., Izidoro, S. C., C, R., Tyzack, J. D., Ribeiro, A. J., Pires, D. E., & Thornton, J. M. (2022). GRaSP-web: A machine learning strategy to predict binding sites based on residue neighborhood graphs. Nucleic Acids Research, 50(W1), W392-W397. https://doi.org/10.1093/nar/gkac323
 <details>
@@ -282,23 +283,18 @@ The baseline methods used for comparison in the paper are based on handcrafted f
 
 </details>
 
-#### Aditi Shenoy et al., M-Ionic: Prediction of metal ion binding sites from sequence using residue embeddings, bioRxiv 2023.04.06.535847; doi: https://doi.org/10.1101/2023.04.06.535847
-<details>
-<summary>Summary</summary>
 
-
-</details>
-
-#### Yi-Heng Zhu, Dong-Jun Yu, ULDNA: Integrating Unsupervised Multi-Source Language Models with LSTM-Attention Network for Protein-DNA Binding Site Prediction, bioRxiv 2023.05.30.542787; doi: https://doi.org/10.1101/2023.05.30.542787
-<details>
-<summary>Summary</summary>
-
-
-</details>
 
 ## Metal-binding site prediction
 
 #### Cheng, Y., Wang, H., Xu, H., Liu, Y., Ma, B., Chen, X., Zeng, X., Wang, X., Wang, B., Shiau, C., Ovchinnikov, S., Su, X., & Wang, C. (2023). Co-evolution-based prediction of metal-binding sites in proteomes by machine learning. Nature Chemical Biology, 19(5), 548-555. https://doi.org/10.1038/s41589-022-01223-z
+<details>
+<summary>Summary</summary>
+
+
+</details>
+
+#### Aditi Shenoy et al., M-Ionic: Prediction of metal ion binding sites from sequence using residue embeddings, bioRxiv 2023.04.06.535847; doi: https://doi.org/10.1101/2023.04.06.535847
 <details>
 <summary>Summary</summary>
 
@@ -332,4 +328,10 @@ A design and assessment of consensus predictors.8 The authors propose several ty
 </details>
 
 
+#### Ashwin Dhakal and others, Artificial intelligence in the prediction of protein–ligand interactions: recent advances and future directions, Briefings in Bioinformatics, Volume 23, Issue 1, January 2022, bbab476, https://doi.org/10.1093/bib/bbab476
+<details>
+<summary>Summary</summary>
+
+
+</details>
 
