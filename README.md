@@ -38,6 +38,20 @@ The method was compared with ScanNet, MaSIF-site, SPPIDER35 and PSIVER on protei
 The testing set is composed of the clusters containing any of the 53 subunits from the MaSIF-site benchmark dataset or 230 structures from the Protein-Protein Docking Benchmark 5.038 (PPDB5) dataset. Additionally, we extracted a subset 417 structures common in the benchmark dataset of ScanNet15 and the testing dataset of PeSTo. 
 </details>
 
+## EC prediction
+
+#### Zhenkun Shi Rui Deng Qianqian Yuan Zhitao Mao Ruoyu Wang Haoran Li Xiaoping Liao Hongwu Ma. . Enzyme Commission Number Prediction and Benchmarking with Hierarchical Dual-core Multitask Learning Framework. Research. 2023:6;0153. DOI:10.34133/research.0153
+<details>
+<summary>summary</summary>
+propose three enzyme-related tasks.
+</details>
+
+#### Tianhao Yu et al. ,Enzyme function prediction using contrastive learning.Science379,1358-1363(2023).DOI:10.1126/science.adf2465
+<details>
+<summary>summary</summary>
+
+</details>
+
 
 ## GO and EC prediction
 
